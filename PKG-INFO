@@ -1,16 +1,16 @@
 Metadata-Version: 1.0
-Name: XStatic-angular-irdragndrop
+Name: XStatic-Angular-lrdragndrop
 Version: 1.0.2
-Summary: irdragndrop 1.0.2 (XStatic packaging standard)
+Summary: lrdragndrop 1.0.2 (XStatic packaging standard)
 Home-page: https://github.com/lorenzofox3/lrDragNDrop
 Author: Thai Tran
 Author-email: tqtran@us.ibm.com
 License: MIT
 Description:
-        XStatic-angular-IrDragNDrop
+        XStatic-angular-lrDragNDrop
         -------------------
 
-        IrDragNDrop javascript library packaged for setuptools (easy_install) / pip.
+        lrDragNDrop javascript library packaged for setuptools (easy_install) / pip.
 
         This package is intended to be used by **any** project that needs these files.
 
@@ -21,5 +21,5 @@ Description:
         You can find more info about the xstatic packaging way in the package
         `XStatic`.
 
-Keywords: drag-n-drop angular table irdragndrop xstatic
+Keywords: drag-n-drop angular table lrdragndrop xstatic
 Platform: any
