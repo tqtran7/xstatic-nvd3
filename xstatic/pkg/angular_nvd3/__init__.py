@@ -6,7 +6,7 @@ See package 'XStatic' for documentation and basic tools.
 """
 
 # official name, upper/lowercase allowed, no spaces
-DISPLAY_NAME = 'Angular-lrdragndrop'
+DISPLAY_NAME = 'Angular-nvd3'
 
 # name used for PyPi
 PACKAGE_NAME = 'XStatic-%s' % DISPLAY_NAME
@@ -15,9 +15,9 @@ NAME = __name__.split('.')[-1] # package name (e.g. 'foo' or 'foo_bar')
                                # please use a all-lowercase valid python
                                # package name
 
-VERSION = '1.0.2' # version of the packaged files, please use the upstream
+VERSION = '0.0.8' # version of the packaged files, please use the upstream
                   # version number
-BUILD = '2' # our package build number, so we can release new builds
+BUILD = '0' # our package build number, so we can release new builds
              # with fixes for xstatic stuff.
 PACKAGE_VERSION = VERSION + '.' + BUILD # version used for PyPi
 
@@ -25,14 +25,14 @@ DESCRIPTION = "%s %s (XStatic packaging standard)" % (DISPLAY_NAME, VERSION)
 
 PLATFORMS = 'any'
 CLASSIFIERS = []
-KEYWORDS = 'drag-n-drop angular table lrdragndrop xstatic'
+KEYWORDS = 'xstatic angular chart d3 nvd3 directives'
 
 # XStatic-* package maintainer:
 MAINTAINER = 'Thai Tran'
 MAINTAINER_EMAIL = 'tqtran@us.ibm.com'
 
 # this refers to the project homepage of the stuff we packaged:
-HOMEPAGE = 'https://github.com/lorenzofox3/lrDragNDrop'
+HOMEPAGE = 'https://cmaurer.github.io/angularjs-nvd3-directives/'
 
 # this refers to all files:
 LICENSE = '(same as %s)' % DISPLAY_NAME
@@ -44,7 +44,7 @@ BASE_DIR = join(dirname(__file__), 'data')
 
 # location of the Javascript file that's the entry point for this package, if
 # one exists, relative to BASE_DIR
-MAIN='lrdragndrop.js'
+MAIN='angularjs-nvd3-directives.js'
 
 LOCATIONS = {
     # CDN locations (if no public CDN exists, use an empty dict)

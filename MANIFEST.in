@@ -1,5 +1,5 @@
 include README.txt
-recursive-include xstatic/pkg/angular_lrdragndrop *
+recursive-include xstatic/pkg/angular_nvd3 *
 
 global-exclude *.pyc
 global-exclude *.pyo
