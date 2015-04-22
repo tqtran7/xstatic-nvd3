@@ -1,8 +1,8 @@
 
-XStatic-Angular-nvd3
+XStatic-NVD3
 -------------------
 
-nvd3 javascript library packaged for setuptools (easy_install) / pip.
+NVD3 javascript library packaged for setuptools (easy_install) / pip.
 
 This package is intended to be used by **any** project that needs these files.
 

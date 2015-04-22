@@ -6,7 +6,7 @@ See package 'XStatic' for documentation and basic tools.
 """
 
 # official name, upper/lowercase allowed, no spaces
-DISPLAY_NAME = 'Angular-nvd3'
+DISPLAY_NAME = 'NVD3'
 
 # name used for PyPi
 PACKAGE_NAME = 'XStatic-%s' % DISPLAY_NAME
@@ -15,7 +15,7 @@ NAME = __name__.split('.')[-1] # package name (e.g. 'foo' or 'foo_bar')
                                # please use a all-lowercase valid python
                                # package name
 
-VERSION = '0.0.8' # version of the packaged files, please use the upstream
+VERSION = '1.7.1' # version of the packaged files, please use the upstream
                   # version number
 BUILD = '0' # our package build number, so we can release new builds
              # with fixes for xstatic stuff.
@@ -25,14 +25,14 @@ DESCRIPTION = "%s %s (XStatic packaging standard)" % (DISPLAY_NAME, VERSION)
 
 PLATFORMS = 'any'
 CLASSIFIERS = []
-KEYWORDS = 'xstatic angular chart d3 nvd3 directives'
+KEYWORDS = 'xstatic javascript chart d3 nvd3'
 
 # XStatic-* package maintainer:
 MAINTAINER = 'Thai Tran'
 MAINTAINER_EMAIL = 'tqtran@us.ibm.com'
 
 # this refers to the project homepage of the stuff we packaged:
-HOMEPAGE = 'https://cmaurer.github.io/angularjs-nvd3-directives/'
+HOMEPAGE = 'http://nvd3.org/'
 
 # this refers to all files:
 LICENSE = '(same as %s)' % DISPLAY_NAME
@@ -44,7 +44,7 @@ BASE_DIR = join(dirname(__file__), 'data')
 
 # location of the Javascript file that's the entry point for this package, if
 # one exists, relative to BASE_DIR
-MAIN='angularjs-nvd3-directives.js'
+MAIN='nv.d3.js'
 
 LOCATIONS = {
     # CDN locations (if no public CDN exists, use an empty dict)

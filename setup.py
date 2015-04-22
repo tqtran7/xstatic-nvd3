@@ -1,5 +1,5 @@
 
-from xstatic.pkg import angular_nvd3 as xs
+from xstatic.pkg import nvd3 as xs
 
 # The README.txt file should be written in reST so that PyPI can use
 # it to generate your project's PyPI page.
